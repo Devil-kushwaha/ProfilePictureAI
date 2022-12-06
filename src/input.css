@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: red 4px solid;
+
+}
+ 
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+img{
+    display: block;
+}
+
+.circle{
+    box-shadow: 0 0 5px 0 rgb(168, 168, 168);
+}
+
+.guide{
+    background: url(../Assets/asset10.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 13%;
+    background-size: 80%;
+}
+
+@media screen and (max-width:768px){
+    .guide{
+        background-size: 0%;
+    }
+}
